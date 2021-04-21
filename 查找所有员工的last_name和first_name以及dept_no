@@ -1,0 +1,3 @@
+select last_name,first_name,dept_no 
+from employees left join dept_emp 
+on employees.emp_no = dept_emp.emp_no;
