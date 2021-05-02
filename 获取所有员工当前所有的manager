@@ -1,0 +1,4 @@
+select a.emp_no, b.emp_no as manager_no
+from dept_emp as a join dept_manager as b 
+on a.dept_no = b.dept_no
+and a.emp_no <> b.emp_no
