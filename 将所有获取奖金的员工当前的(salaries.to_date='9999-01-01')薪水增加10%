@@ -1,0 +1,2 @@
+update salaries set salary = 1.1*salary
+where to_date = '9999-01-01';
