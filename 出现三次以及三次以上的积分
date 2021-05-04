@@ -1,0 +1,3 @@
+select number from grade
+group by number
+having count(id) >= 3
